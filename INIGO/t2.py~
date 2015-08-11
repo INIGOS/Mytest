@@ -1,0 +1,5 @@
+for line in open('twittersearchconnector.dat','r'):
+	item=line.rstrip()
+	#print item
+	new=item.split()
+	print new
